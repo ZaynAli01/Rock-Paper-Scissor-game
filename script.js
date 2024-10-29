@@ -5,8 +5,8 @@ let userchoice = document.querySelector('.your-choice p')
 let compChoice = document.querySelector('.comp-choice p')
 let result = document.querySelector('.result p')
 
+
 function compchoice(){
-   
     
     const compList = ['rock','paper','scissor']
     
@@ -48,12 +48,12 @@ function imageChangcomp(compvalue){
 function showWinner (userWin){
     
     if(userWin){
-        result.innerHTML = 'You Win'
-        result.style.color = 'green'
+        result.innerHTML = 'You Win 🤩'
+        result.style.color = '#00f900'
     }
 
     else{
-        result.innerHTML = 'You loss'
+        result.innerHTML = 'You loss 🙁'
         result.style.color = 'red'
     }
 }
@@ -67,7 +67,7 @@ function results (userchoice){
     if (user === computer){
 
         result.innerHTML = 'Match draw !..try again'
-        result.style.color = '#3700ff'
+        result.style.color = 'rgb(0 255 247)'
     }
 
     else{
